@@ -22,6 +22,9 @@ const Avatar = styled.img`
   max-width: 150px;
   border-radius: 50%;
   background-color: honeydew;
+  transition: box-shadow 250ms cubic-bezier(0.42, 0, 0.58, 1);
+  :hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
 `;
 const UserName = styled.p`
   font-size: 28px;
