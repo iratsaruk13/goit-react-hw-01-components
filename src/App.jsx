@@ -1,5 +1,7 @@
 import { Profile } from "./components/Profile/Profile";
 import userdata from "./components/Profile/user.json";
+import { Statistics } from "./components/Statistics/Statistics";
+import statistics from "./components/Statistics/data.json";
 
 function App() {
   const { username, avatar, tag, location, stats } = userdata;
@@ -12,6 +14,7 @@ function App() {
         location={location}
         stats={stats}
       />
+      <Statistics title="Upload stats" stats={statistics} />
     </>
   );
 }

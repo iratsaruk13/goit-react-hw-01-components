@@ -11,6 +11,7 @@ import {
   StatsLabel,
   StatsQuantity,
 } from "./Profile.styled";
+
 export const Profile = ({ username, avatar, tag, location, stats }) => {
   return (
     <Container key={username}>

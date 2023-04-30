@@ -41,7 +41,6 @@ const Location = styled.p`
 const StatsList = styled.ul`
 list-style: none;
 display: flex;
-// justify-content: space-around;
 gap: 10px;
 margin: 0px;
 padding: 8px;
