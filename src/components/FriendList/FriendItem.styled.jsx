@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
 const FriendsItem = styled.li`
-display: flex;
-align-items: center;
-
-width: 300px; 
-background-color: honeydew;
-border-radius: 10px;
-transition: box-shadow 250ms cubic-bezier(.42, 0, .58, 1);
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: honeydew;
+  border-radius: 10px;
+  transition: box-shadow 250ms cubic-bezier(0.42, 0, 0.58, 1);
   :hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
-;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 const OnlineStatus = styled.span`

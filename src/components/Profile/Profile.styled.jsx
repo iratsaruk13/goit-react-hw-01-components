@@ -25,7 +25,9 @@ const Avatar = styled.img`
   transition: box-shadow 250ms cubic-bezier(0.42, 0, 0.58, 1);
   :hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 `;
+
 const UserName = styled.p`
   font-size: 28px;
   font-weight: 700;
@@ -36,28 +38,31 @@ const UserTag = styled.p`
   font-weight: 500;
   color: rgb(78, 77, 77);
 `;
+
 const Location = styled.p`
   font-size: 20px;
   font-weight: 400;
   color: rgb(78, 77, 77);
 `;
+
 const StatsList = styled.ul`
-list-style: none;
-display: flex;
-gap: 10px;
-margin: 0px;
-padding: 8px;
- }`;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 8px;
+`;
 
 const StatsItem = styled.li`
-display: flex;
-flex-direction: column;
-flex-basis: calc(100% / 3);
-background-color: honeydew;
-border-radius: 16px;
-transition: box-shadow 250ms cubic-bezier(.42, 0, .58, 1);
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+  background-color: honeydew;
+  border-radius: 16px;
+  transition: box-shadow 250ms cubic-bezier(0.42, 0, 0.58, 1);
   :hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 const StatsLabel = styled.span`
@@ -65,6 +70,7 @@ const StatsLabel = styled.span`
   font-weight: 500;
   color: rgb(78, 77, 77);
 `;
+
 const StatsQuantity = styled.span`
   font-size: 32px;
   font-weight: 700;

@@ -11,6 +11,6 @@ const FriendsList = styled.ul`
   background-color: #fff;
   width: 300px;
   border-radius: 10px;
-`;
+`
 
-export { FriendsList };
+export { FriendsList }

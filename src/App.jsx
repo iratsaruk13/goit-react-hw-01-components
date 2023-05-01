@@ -4,8 +4,8 @@ import { Statistics } from "./components/Statistics/Statistics";
 import statistics from "./components/Statistics/data.json";
 import { FriendList } from "./components/FriendList/FriendList";
 import friendsdata from "./components/FriendList/friends.json";
-import {TransactionHistory} from "./components/Transaction/Transaction";
-import transactions from "./components/Transaction/transactions.json"
+import { TransactionHistory } from "./components/Transaction/Transaction";
+import transactions from "./components/Transaction/transactions.json";
 
 function App() {
   const { username, avatar, tag, location, stats } = userdata;
